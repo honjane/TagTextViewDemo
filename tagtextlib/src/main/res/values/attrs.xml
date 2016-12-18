@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagTextViewStyle">
+        <attr name="t_textSize" format="dimension"/>
+        <attr name="t_textColor" format="color"/>
+        <attr name="t_itemBorder" format="dimension"/>
+        <attr name="t_viewBorder" format="dimension"/>
+        <attr name="t_tagBackground" format="reference"/>
+        <attr name="t_singleLine" format="boolean"/>
+        <attr name="t_imageWidth" format="dimension"/>
+        <attr name="t_imageHeight" format="dimension"/>
+        <attr name="t_rightArrow" format="integer"/>
+        <attr name="t_showArrow" format="boolean"/>
+        <attr name="t_showMore" format="boolean"/>
+        <attr name="t_moreTextStr" format="string"/>
+        <attr name="t_moreTextWidth" format="dimension"/>
+    </declare-styleable>
+
+</resources>

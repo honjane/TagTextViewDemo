@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.honjane.tagtextview.MainActivity">
+
+
+        <com.honjane.tagtextlib.TagTextView
+            android:id="@+id/tag_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tool:t_viewBorder="12dp"
+            tool:t_textColor="#42A5F5"
+            tool:t_textSize="12sp"
+            tool:t_itemBorder="8dp" />
+
+        <com.honjane.tagtextlib.TagTextView
+            android:id="@+id/tag_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tool:t_textColor="#dddddd"
+            tool:t_textSize="14sp"
+            tool:t_itemBorder="8dp" />
+
+
+        <com.honjane.tagtextlib.TagTextView
+            android:id="@+id/tag_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tool:t_tagBackground="@color/colorAccent"
+            tool:t_textColor="#dddddd"
+            tool:t_singleLine="true"
+            tool:t_showArrow="true"
+            tool:t_showMore="true"
+            tool:t_textSize="14sp"
+            tool:t_itemBorder="8dp" />
+    </LinearLayout>
+</ScrollView>
